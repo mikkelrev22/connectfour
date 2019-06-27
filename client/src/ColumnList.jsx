@@ -1,13 +1,10 @@
 import React from 'react'
-import Hole from './Hole.jsx'
+import Column from './Column.jsx'
 
 const ColumnList = (props) => {
   return (
-    <Hole/>
+    props.board.map((column)=><Column addPiece = {props.addPiece} value={column.value}/>)
   )
 }
-
-
-
 
 export default ColumnList

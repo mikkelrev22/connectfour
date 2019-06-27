@@ -1,12 +1,9 @@
 const Hole = (props) => {
   return (
-    {props}
+    <div>
+    {/* {props.value} */}
+    </div>
   )
 }
-
-
-
-
-
 
 export default Hole
