@@ -1,9 +1,12 @@
 import React from 'react'
-import Column from './Column.jsx'
+import Hole from './Hole.jsx'
 
 const ColumnList = (props) => {
   return (
-    props.board.map((column)=><Column addPiece = {props.addPiece} value={column.value}/>)
+    <div>
+      <button onClick={props.addPiece()}>+</button>
+    {props.column.map((hole)=> <Hole />)}
+    </div>
   )
 }
 

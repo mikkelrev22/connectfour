@@ -1,7 +1,7 @@
 const Hole = (props) => {
   return (
     <div>
-    {/* {props.value} */}
+    {/* {props.?} */}
     </div>
   )
 }

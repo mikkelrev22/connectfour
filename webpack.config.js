@@ -17,6 +17,10 @@ module.exports = {
           query: {
             presets: ['react', 'env']
          }
+        },
+        {
+          test: /\.css$/,
+          loader: 'css-loader'
         }
       ]
     }
